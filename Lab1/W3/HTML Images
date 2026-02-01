@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My first paragraph.</p>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
