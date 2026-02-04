@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  background: #0095f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.or {
+  margin: 15px 0;
+  color: #999;
+}
+
+.fb-login {
+  color: #385185;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup {
+  margin-top: 20px;
+}
