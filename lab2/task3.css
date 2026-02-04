@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #f6f8fa;
+}
+
+.hero button {
+  padding: 10px 20px;
+}
+
+.pricing {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+}
+
+.addons {
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.addon {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
